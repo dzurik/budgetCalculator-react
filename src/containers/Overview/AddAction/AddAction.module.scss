@@ -1,0 +1,64 @@
+.Add {
+  display: flex;
+  margin: 3rem 0;
+  justify-content: space-evenly;
+  align-items: center;
+
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
+}
+
+.AddAction {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+  &:active,
+  &:hover {
+    outline: 0;
+  }
+}
+
+.Icon {
+  fill: transparent;
+  height: 4rem;
+  width: 4rem;
+  color: #0fc44e;
+  cursor: pointer;
+}
+
+.Red {
+  color: #ea3e3e;
+}
+
+.Input {
+  height: 3rem;
+  margin: 1rem;
+  padding: 0.5rem;
+
+  @media screen and (max-width: 43.75em) {
+    width: 12rem;
+    margin: 0rem;
+  }
+}
+
+.Error {
+  height: 3rem;
+  font-size: 2rem;
+  margin-top: 3.5rem;
+  color: #ea3e3e;
+}
+
+.Select {
+  margin-right: 1rem;
+  height: 3rem;
+}

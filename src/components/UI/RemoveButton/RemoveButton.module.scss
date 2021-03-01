@@ -1,0 +1,11 @@
+.RemoveButton {
+  border: none;
+  background: none;
+  display: flex;
+
+  svg {
+    cursor: pointer;
+    color: red;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,19 @@
+.Transactions {
+  height: auto;
+  width: 60%;
+  padding: 3rem;
+  display: flex;
+  grid-gap: 5rem;
+  margin-bottom: 10rem;
+
+  @media screen and (max-width: 62.5em) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 43.75em) {
+    width: 100%;
+    padding: 2rem;
+    grid-gap: 3rem;
+    margin-bottom: 7rem;
+  }
+}

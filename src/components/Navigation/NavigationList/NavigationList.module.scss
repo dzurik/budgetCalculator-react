@@ -1,0 +1,15 @@
+.Navigation {
+  height: 100%;
+  display: flex;
+}
+
+.NavigationList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  &__item {
+    height: 100%;
+  }
+}

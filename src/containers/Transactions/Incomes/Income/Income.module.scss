@@ -1,0 +1,23 @@
+.Income {
+  height: 3rem;
+  font-size: 1.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+}
+
+.Second {
+  background-color: #eee;
+}
+
+.Amount {
+  color: #0fc44e;
+  display: flex;
+
+  button {
+    margin-left: 1rem;
+  }
+}
